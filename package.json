@@ -1,0 +1,28 @@
+{
+  "name": "consilium-dei",
+  "version": "0.0.1",
+  "description": "This package can be used as describer for connecting and transferring data over connected nodes.",
+  "main": "example.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jironett/Consilium-Dei.git"
+  },
+  "keywords": [
+    "Configuration",
+    "Scheme",
+    "Communication",
+    "pathway"
+  ],
+  "author": "Jiří Dušek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jironett/Consilium-Dei/issues"
+  },
+  "homepage": "https://github.com/Jironett/Consilium-Dei#readme"
+}
