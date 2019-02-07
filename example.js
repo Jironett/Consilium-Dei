@@ -45,8 +45,10 @@ const objConfig = [
 const cfg = new Configuration(objConfig, 1);
 
 
-cfg.forSelectedPoint((scheme, destPoint) => {
+const fce = (scheme, destPoint) => {
 
     console.log(scheme, destPoint);
 
-}, 2);
+};
+
+cfg.forSelectedPoint(fce, 2);
