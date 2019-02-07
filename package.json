@@ -1,6 +1,6 @@
 {
   "name": "@netcom/consilium-dei",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "This package can be used as describer for connecting and transferring data over connected nodes.",
   "main": "lib/index.js",
   "directories": {
