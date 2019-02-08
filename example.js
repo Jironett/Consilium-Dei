@@ -9,11 +9,11 @@ const objConfig = [
         scheme: [
             {
                 type: 'endpoint',
-                point: 2,
+                target: 2,
             },
             {
                 type: 'endpoint',
-                point: 3,
+                target: 3,
             },
         ]
     },
@@ -24,7 +24,7 @@ const objConfig = [
         scheme: [
             {
                 type: 'endpoint',
-                point: 1
+                target: 1
             },
         ]
     },
@@ -35,7 +35,7 @@ const objConfig = [
         scheme: [
             {
                 type: 'endpoint',
-                point: 1
+                target: 1
             },
         ]
     }
@@ -45,9 +45,9 @@ const objConfig = [
 const cfg = new Configuration(objConfig, 1);
 
 
-const fce = (scheme, destPoint) => {
+const fce = (scheme, targetPoint) => {
 
-    console.log(scheme, destPoint);
+    console.log(scheme, targetPoint);
 
 };
 
