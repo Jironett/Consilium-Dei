@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Jironett/Consilium-Dei/issues"
   },
-  "homepage": "https://github.com/Jironett/Consilium-Dei#readme"
+  "homepage": "https://github.com/Jironett/Consilium-Dei#readme",
+  "dependencies": {
+    "deepcopy": "^1.0.1"
+  }
 }
